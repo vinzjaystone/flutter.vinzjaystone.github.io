@@ -15424,8 +15424,8 @@ K1:function K1(){},
 yR:function yR(a){this.a=a},
 qo:function qo(a){this.a=a},
 uf:function uf(a){var _=this
-_.f=null
-_.r=$
+_.e=null
+_.f=$
 _.a=null
 _.b=a
 _.c=null},
@@ -48432,9 +48432,9 @@ i=m
 l=B.ah.Ar(0,A.aja(A.ahH(i.e).c.a.i(0,"charset")).ct(0,i.x),null)
 if(J.bn(l)===1){k=J.aG(J.aG(J.aG(l,0),"version"),0)
 A.ld().$1(k)
-if(!J.f(k,"0.0.4")){e.a=4
+if(!J.f(k,"0.0.5")){e.a=4
 A.a3O("Updating in 4 seconds",null)
-n.f=A.a1a(B.wU,new A.Xe(e,n))}else{e=$.cA()
+n.e=A.a1a(B.wU,new A.Xe(e,n))}else{e=$.cA()
 e.toString
 i=A.a3N()
 h=A.d(e.y,"indicatorSize")
@@ -48456,31 +48456,32 @@ case 5:return A.a0(null,r)
 case 1:return A.a_(p,r)}})
 return A.a1($async$nx,r)},
 Q2(a){var s,r=this
-r.r=0
-s=r.f
+r.f=0
+s=r.e
 if(s!=null)s.aS(0)
-r.f=A.a1a(B.aF,new A.Xf(r))},
+r.e=A.a1a(B.aF,new A.Xf(r))},
 b9(){this.bw()
 A.ld().$1("INIT STATE MAIN PAGE CALLED")
 this.Q2(0)},
-L(a,b){var s=null,r=A.a15("CURRENT VERSION : 0.0.4",s,s)
-return new A.ri(new A.ov(r,new A.Fb(s,s,1/0,56),s),A.Jk(A.a3y(A.a([A.a15("Current Version is : 0.0.4",B.GU,s)],t.E),B.dK,B.pd,B.pf),s,s),A.a3Z(B.xr,!1,this.gTA(),"REFRESH PAGE"),s)}}
+L(a,b){var s=null,r=A.a15("CURRENT VERSION : 0.0.5",s,s)
+return new A.ri(new A.ov(r,new A.Fb(s,s,1/0,56),s),A.Jk(A.a3y(A.a([A.a15("Current Version is : 0.0.5",B.GU,s)],t.E),B.dK,B.pd,B.pf),s,s),A.a3Z(B.xr,!1,this.gTA(),"REFRESH PAGE"),s)}}
 A.Xe.prototype={
 $1(a){var s=this.a
 A.a3O("Updating in "+s.a+" seconds",B.b3)
-if(--s.a<=0){s=this.b.f
+if(--s.a<=0){s=this.b.e
 if(s!=null)s.aS(0)
 s=$.cA()
 s.fO()
 s.fM(!0)
+window.location.reload()
 A.ld().$1("Refreshing page")}},
 $S:46}
 A.Xf.prototype={
 $1(a){var s,r="_progress",q=this.a
-A.KW(A.d(q.r,r),"CHECKING VERSION :  "+B.d.O(A.d(q.r,r)*100,0)+"%")
-s=A.d(q.r,r)+0.2
-q.r=s
-if(A.d(s,r)>=1){s=q.f
+A.KW(A.d(q.f,r),"CHECKING VERSION :  "+B.d.O(A.d(q.f,r)*100,0)+"%")
+s=A.d(q.f,r)+0.2
+q.f=s
+if(A.d(s,r)>=1){s=q.e
 if(s!=null)s.aS(0)
 s=$.cA()
 s.fO()
