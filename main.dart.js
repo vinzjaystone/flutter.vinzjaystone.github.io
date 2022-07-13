@@ -48432,7 +48432,7 @@ i=m
 l=B.ah.Ar(0,A.aja(A.ahH(i.e).c.a.i(0,"charset")).ct(0,i.x),null)
 if(J.bn(l)===1){k=J.aG(J.aG(J.aG(l,0),"version"),0)
 A.ld().$1(k)
-if(!J.f(k,"0.0.3")){e.a=4
+if(!J.f(k,"0.0.4")){e.a=4
 A.a3O("Updating in 4 seconds",null)
 n.f=A.a1a(B.wU,new A.Xe(e,n))}else{e=$.cA()
 e.toString
@@ -48463,10 +48463,8 @@ r.f=A.a1a(B.aF,new A.Xf(r))},
 b9(){this.bw()
 A.ld().$1("INIT STATE MAIN PAGE CALLED")
 this.Q2(0)},
-L(a,b){var s,r=null
-this.a.toString
-s=A.a15("Version Checker",r,r)
-return new A.ri(new A.ov(s,new A.Fb(r,r,1/0,56),r),A.Jk(A.a3y(A.a([A.a15("Current Version is : 0.0.3",B.GU,r)],t.E),B.dK,B.pd,B.pf),r,r),A.a3Z(B.xr,!1,this.gTA(),"REFRESH PAGE"),r)}}
+L(a,b){var s=null,r=A.a15("CURRENT VERSION : 0.0.4",s,s)
+return new A.ri(new A.ov(r,new A.Fb(s,s,1/0,56),s),A.Jk(A.a3y(A.a([A.a15("Current Version is : 0.0.4",B.GU,s)],t.E),B.dK,B.pd,B.pf),s,s),A.a3Z(B.xr,!1,this.gTA(),"REFRESH PAGE"),s)}}
 A.Xe.prototype={
 $1(a){var s=this.a
 A.a3O("Updating in "+s.a+" seconds",B.b3)
