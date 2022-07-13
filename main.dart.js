@@ -48289,7 +48289,7 @@ j=n
 m=B.aj.Ak(0,A.ajc(A.ahI(j.e).c.a.i(0,"charset")).cu(0,j.x),null)
 if(J.bq(m)===1){l=J.aI(J.aI(J.aI(m,0),"version"),0)
 A.o9().$1(l)
-if(!J.f(l,"0.0.1")){window.location.reload()
+if(!J.f(l,"0.0.2")){window.location.reload()
 A.o9().$1("Refreshing page")}}q=1
 s=5
 break
@@ -48308,7 +48308,7 @@ return A.a5($async$nt,r)},
 N(a,b){var s,r=null
 this.a.toString
 s=A.a5q("Version Checker",r)
-return new A.rg(new A.ot(s,new A.F2(r,r,1/0,56),r),A.Jl(A.ad9(A.a([A.a5q("Current Version is : 0.0.1",B.Gm),B.CW,new A.xf(new A.Xh(this),r,r,r,r,B.D,r,!1,B.GD,r)],t.F),B.Am),r,r),A.a3Q(B.wS,!1,this.gTl(),"REFRESH PAGE"),r)}}
+return new A.rg(new A.ot(s,new A.F2(r,r,1/0,56),r),A.Jl(A.ad9(A.a([A.a5q("Current Version is : 0.0.2",B.Gm),B.CW,new A.xf(new A.Xh(this),r,r,r,r,B.D,r,!1,B.GD,r)],t.F),B.Am),r,r),A.a3Q(B.wS,!1,this.gTl(),"REFRESH PAGE"),r)}}
 A.Xh.prototype={
 $0(){var s=0,r=A.a6(t.H),q=this
 var $async$$0=A.a7(function(a,b){if(a===1)return A.a3(b,r)
